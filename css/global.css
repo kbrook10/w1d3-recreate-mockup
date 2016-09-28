@@ -1,10 +1,11 @@
 *{
     box-sizing: border-box;
-    /*border: 1px solid grey;*/
+    /*border: 1px solid red;*/
 }
 
 body{
     /*max-width: 960px;*/
+    background-color: #fff;
 }
 header{
     background-color: grey;
@@ -34,23 +35,67 @@ footer{
 }
 /*Styling of the pricing options*/
 .price-opt{
-    text-align: center;
+    /*text-align: center;*/
 }
 
-.grid{
-    margin: 30px auto;
-}
 .column{
-    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px;
 }
 .box{
     width: 275px;
     height: 500px;
-    background-color: red;
+    background-color: grey;
     margin-right: 15px;
     display: inline-block;
+    /*padding-top: 10px;*/
+    color: #fff;
+}
+/*Styling of Inner Boxes*/
+.innerbox{
+    margin: 0 auto;
+    /*border: 1px solid grey;*/
+    text-align: center;
+}
+.innerbox1{
+    height: 10%;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+.innerbox2{
+    height: 25%;
+    padding-top: 25px;
+    font-size: 70px;
+}
+.innerbox3{
+    height: 10%;
 }
 
+.innerbox-feat{
+    height: 6.6%;
+    padding-top: 5px;
+    background-color: #eaeaea;
+    color: #000;
+    border: 1px solid grey;
+}
+.innerbox10{
+    height: 12%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    /*background-color: transparent;*/
+    border: 2px solid black;
+}
+.innerbox-top{
+    background-color: green;
+}
+.innerbox-top2{
+    background-color: blue;
+}
+.innerbox-top3{
+    background-color: black;
+}
 
 /*Styling of the links*/
 a {
