@@ -4,7 +4,7 @@
 }
 
 body{
-    max-width: 960px;
+    /*max-width: 960px;*/
 }
 header{
     background-color: grey;
@@ -25,19 +25,36 @@ footer{
     background-size: cover;
     margin: 0;
 }
-h2 {
-    margin:0;
-    padding: 100px;
-}
 .banner-text{
     margin: 0 auto;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px black;
+    padding: 100px;
+}
+/*Styling of the pricing options*/
+.price-opt{
+    text-align: center;
 }
 
+.grid{
+    margin: 30px auto;
+}
+.column{
+    margin: auto;
+}
 .box{
-    width: 200px;
-    height: 200px;
+    width: 275px;
+    height: 500px;
     background-color: red;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+
+/*Styling of the links*/
+a {
+    text-decoration: none;
+    color: black;
+    color: rgba(0,0,0, .35);
 }
