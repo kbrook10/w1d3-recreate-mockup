@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+    margin: 50px 20px;
+}
