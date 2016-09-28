@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    /*border: 1px solid grey;*/
+}
+
+body{
+    max-width: 960px;
+}
+header{
+    background-color: grey;
+}
+
+main{
+
+}
+section{
+
+}
+footer{
+    text-align: center;
+}
+/*Styling of the banner section*/
+.banner-intro{
+    background: url(../images/background.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0;
+}
+h2 {
+    margin:0;
+    padding: 100px;
+}
+.banner-text{
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
